@@ -1,4 +1,12 @@
 # Splay46
+
+This is my fork of the beautiful Splay46.
+I am changing the dxf files to suit the materials and components available to me.
+This basically means that every M2 screw hole is expanded to M3 holes and a similar adjustment will be made to the tenting system.
+Moreover, I will be handwiring the keyboard to not deal with any PCB vendors.
+I hope to document the handwiring and building process in detail.
+The following is the original README:
+
 ![KBD_IMAGE](/readme_imgs/kbd_pic.jpeg)
 ## Build guide
 ***This keyboard requires soldering of really small smd components like USB Type C Receptacle(0.3mm pitch), Atmega32U4(0.8mm pitch), 0603(1608 in metric) sized capacitors/resistors, thus only recommended for experts.***
@@ -19,22 +27,22 @@
 - keyswitches * 46
 ### BOM
 
-| Annotation(Silk) | Component                        | digikey product number    | 
-| ---------------- | -------------------------------- | ------------------------- | 
-| C1               | 10uf capacitor                   | 1276-1119-1-ND            | 
-| C2,5,6           | 0.1uf capacitor                  | 1276-CL10B104KB8NNNLCT-ND | 
-| C3,4             | 22pf capacitor                   | 478-1167-1-ND             | 
-| C7               | 1uf capacitor                    | 276-1102-1-ND             | 
-| R1,2             | 22ohm resistor                   | 311-22.0HRCT-ND           | 
-| R3,4             | 10kohm resistor                  | 311-10KDCT-ND             | 
-| R5,6             | 5.1kohm resistor                 | 311-5.10KHRCT-ND          | 
-| Y1               | 16.0Mhz crystal                  | SER4069CT-ND              | 
-| U1               | Atmega32U4                       | ATMEGA32U4-AURCT-ND       | 
-| SW1              | Tactile switch                   | CKN10361CT-ND             | 
-| D1-23            | smd Diode                        | SMMSD4148T1GOSCT-ND       | 
-| J1               | USB type-c receptacle            | 2073-USB4105-GF-ACT-ND    | 
-| J2               | TRS jack                         | CP-3502SJCT-ND            | 
-| MX1-23           | Kailh MX switch socket(optional) | -                         | 
+| Annotation(Silk) | Component                        | digikey product number    |
+| ---------------- | -------------------------------- | ------------------------- |
+| C1               | 10uf capacitor                   | 1276-1119-1-ND            |
+| C2,5,6           | 0.1uf capacitor                  | 1276-CL10B104KB8NNNLCT-ND |
+| C3,4             | 22pf capacitor                   | 478-1167-1-ND             |
+| C7               | 1uf capacitor                    | 276-1102-1-ND             |
+| R1,2             | 22ohm resistor                   | 311-22.0HRCT-ND           |
+| R3,4             | 10kohm resistor                  | 311-10KDCT-ND             |
+| R5,6             | 5.1kohm resistor                 | 311-5.10KHRCT-ND          |
+| Y1               | 16.0Mhz crystal                  | SER4069CT-ND              |
+| U1               | Atmega32U4                       | ATMEGA32U4-AURCT-ND       |
+| SW1              | Tactile switch                   | CKN10361CT-ND             |
+| D1-23            | smd Diode                        | SMMSD4148T1GOSCT-ND       |
+| J1               | USB type-c receptacle            | 2073-USB4105-GF-ACT-ND    |
+| J2               | TRS jack                         | CP-3502SJCT-ND            |
+| MX1-23           | Kailh MX switch socket(optional) | -                         |
 ### Getting the case
 This case was made to be stacked with 2, 3, 3, 3, 2.5, 3, 3 mm thick acryilc plate(from bottom to top). But if you are thinking of ordering the acrylics to elecrow, it will be costly to do so with these layer thicknesses, so instead you can set all layer's thickness as 3mm. You can use the whole_3030.dxf in that case.
 ### Spacer size/ length
